@@ -33,7 +33,7 @@ header{
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
 }
 
@@ -48,7 +48,6 @@ header{
 
 .header-menu .menu-top-line{
     display: flex;
-    width: 50px;
 }
 
 .header-menu-item{
@@ -56,9 +55,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 75px;
 }
 
 .header-menu .menu-second-line{
     display: flex;
-    width: 50px;
 }

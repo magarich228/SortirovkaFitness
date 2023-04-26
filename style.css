@@ -89,7 +89,7 @@ header{
 .smoke{
     position: fixed;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.7;
     height: 100%;
     width: 100%;
     z-index: 1;
@@ -112,10 +112,10 @@ header{
 .welcome{
     z-index: 30;
     position: absolute;
-    top: 300px;
+    top: 30%;
     width: 100%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 42px;
 }
 
 .ntrcn img{
@@ -128,13 +128,48 @@ header{
     background-position: center;
     height: 600px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    font-size: x-large;
 }
 
-.abonements .all{
-
+.abonements span{
+    width: 80%;
 }
 
+.abonements h4{
+    margin-top: 100px;
+}
+
+.types{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.abonement{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.abonement img{
+    width: 80px;
+    height: 80px;
+}
+
+.abonement:hover{
+    cursor: pointer;
+    opacity: 1;
+}
 
 
 

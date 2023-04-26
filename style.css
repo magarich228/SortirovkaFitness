@@ -14,6 +14,10 @@ a{
     color: white;
 }
 
+h1, h2, h3, h4, h5, h6, span{
+    z-index: 200;
+}
+
 header{
     display: flex;
     height: 130px;
@@ -93,13 +97,12 @@ header{
 
 .video-block{
     display: flex;
-    height: 114vh;
     z-index: 2;
 }
 
 .video-block video{
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     z-index: -20;
     display: flex;
     justify-content: center;
@@ -109,10 +112,8 @@ header{
 .welcome{
     z-index: 30;
     position: absolute;
-    left: 40%;
-    right: 40%;
     top: 300px;
-    width: 500px;
+    width: 100%;
     text-align: center;
     font-size: xx-large;
 }
@@ -126,6 +127,8 @@ header{
     background: url("images/membership.jpg");
     background-position: center;
     height: 600px;
+    display: flex;
+    text-align: center;
 }
 
 .abonements .all{

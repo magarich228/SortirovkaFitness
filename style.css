@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: black;
 }
 
 a{
@@ -15,11 +16,25 @@ a{
 header{
     display: flex;
     height: 130px;
-    position: static;
-    background-color: black;
+    position: fixed;
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 50;
+}
+
+.header-background{
+    height: 130px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -30;
+    background-color: black;
+    opacity: 0;
 }
 
 .header-logo-container{
@@ -65,6 +80,24 @@ header{
 .menu-second-line{
     display: flex;
 }
+
+.video-block{
+    display: flex;
+    height: 114vh;
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.video-block video{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
 
 @font-face {
     font-family: "Lato";

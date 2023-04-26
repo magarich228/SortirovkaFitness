@@ -8,13 +8,18 @@ a{
     color: white;
 }
 
+*{
+    font-family: "Lato";
+}
+
 header{
     display: flex;
     height: 130px;
     position: static;
     background-color: black;
-
     font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header-logo-container{
@@ -24,7 +29,7 @@ header{
     align-items: center;
 }
 
-.header-logo-container .header-logo img{
+.header-logo img{
     width: 130px;
     height: 87px;
 }
@@ -33,21 +38,20 @@ header{
     width: 60%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     flex-direction: column;
 }
 
 .header-timesheet{
     width: 20%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.header-menu .menu-top-line{
+.menu-top-line{
     display: flex;
+    justify-content: flex-end;
 }
 
 .header-menu-item{
@@ -58,6 +62,11 @@ header{
     margin-left: 75px;
 }
 
-.header-menu .menu-second-line{
+.menu-second-line{
     display: flex;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato-Light.ttf");
 }

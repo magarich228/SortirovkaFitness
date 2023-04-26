@@ -82,12 +82,19 @@ header{
     display: flex;
 }
 
+.smoke{
+    position: fixed;
+    background-color: black;
+    opacity: 0.6;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
 .video-block{
     display: flex;
     height: 114vh;
     z-index: 2;
-    background-color: black;
-    opacity: 0.2;
 }
 
 .video-block video{
@@ -109,6 +116,13 @@ header{
     text-align: center;
     font-size: xx-large;
 }
+
+.subscription{
+    background: url("images/membership.jpg");
+    background-position: center;
+    height: 600px;
+}
+
 
 
 

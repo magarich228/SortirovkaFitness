@@ -11,6 +11,7 @@ a{
 
 *{
     font-family: "Lato";
+    color: white;
 }
 
 header{
@@ -92,10 +93,22 @@ header{
 .video-block video{
     height: 100%;
     width: 100%;
-    z-index: 1;
+    z-index: -20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-
+.welcome{
+    z-index: 30;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 300px;
+    width: 500px;
+    text-align: center;
+    font-size: xx-large;
+}
 
 
 

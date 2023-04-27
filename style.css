@@ -269,6 +269,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0 80px;
     overflow: hidden;
 }
@@ -278,6 +279,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     z-index: 300;
+    max-height: 400px;
 }
 
 .trener{
@@ -318,6 +320,29 @@ header{
     background-color: #282828;
 }
 
+#gums{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1600px;
+}
+
+#gums img{
+    flex-grow: 0.5;
+    max-height: 800px;
+}
+
+.gum-wrapper{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.gum-wrapper div{
+    height: 800px;
+}
 
 @font-face {
     font-family: "Lato";

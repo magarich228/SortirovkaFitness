@@ -227,6 +227,25 @@ header{
 
 .modal-form form button:hover{
     cursor: pointer;
+    border: 2px solid whitesmoke;
+    font-weight: 700;
+}
+
+.close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 7px;
+    top: 10px;
+    background: none;
+    border: none;
+    padding: none;
+    z-index: 500;
+}
+
+.close:hover{
+    cursor: pointer;
 }
 
 .modal-smoke{

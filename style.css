@@ -375,6 +375,10 @@ footer{
     text-decoration: underline;
 }
 
+.mrg-top{
+    margin-top: 130px;
+}
+
 @font-face {
     font-family: "Lato";
     src: url("fonts/Lato-Light.ttf");

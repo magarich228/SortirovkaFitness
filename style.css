@@ -28,7 +28,7 @@ header{
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 50;
+    z-index: 800;
 }
 
 .header-background{
@@ -261,6 +261,60 @@ header{
     position: fixed;
     z-index: 500;
     display: none;
+}
+
+.treners{
+    background-color: #282828;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    overflow: hidden;
+}
+
+.short-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 300;
+}
+
+.trener{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 230px;
+    padding: 25px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.trener:hover{
+    background-color: #1E1E1E;
+}
+
+.trener img{
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.trener h4{
+    margin: 5px;
+}
+
+.trener button{
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #1E1E1E;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.trener button:hover{
+    cursor: pointer;
 }
 
 

@@ -315,6 +315,7 @@ header{
 
 .trener button:hover{
     cursor: pointer;
+    background-color: #282828;
 }
 
 

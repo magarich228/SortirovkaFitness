@@ -344,6 +344,13 @@ header{
     height: 800px;
 }
 
+footer{
+    font-size: x-large;
+    padding-top: 60px;
+    text-align: center;
+    height: 80px;
+}
+
 @font-face {
     font-family: "Lato";
     src: url("fonts/Lato-Light.ttf");

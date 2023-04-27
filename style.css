@@ -286,6 +286,12 @@ header{
     flex-direction: column;
     width: 140px;
     height: 230px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.trener:hover{
+    background-color: #1E1E1E;
 }
 
 .trener img{
@@ -303,9 +309,12 @@ header{
     background-color: #1E1E1E;
     border: 1px solid whitesmoke;
     border-radius: 5px;
+    visibility: hidden;
 }
 
-
+.trener button:hover{
+    cursor: pointer;
+}
 
 
 @font-face {

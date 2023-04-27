@@ -282,6 +282,13 @@ header{
     max-height: 400px;
 }
 
+.all-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 300;
+}
+
 .trener{
     margin: 50px;
     display: flex;
@@ -361,6 +368,11 @@ footer{
     padding-top: 60px;
     text-align: center;
     height: 80px;
+}
+
+#allt{
+    color:aquamarine;
+    text-decoration: underline;
 }
 
 @font-face {

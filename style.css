@@ -344,6 +344,18 @@ header{
     height: 800px;
 }
 
+@media (max-width: 1635px){
+    .map{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1475px){
+    .map{
+        width: 750px;
+    }
+}
+
 footer{
     font-size: x-large;
     padding-top: 60px;

@@ -286,8 +286,9 @@ header{
     flex-direction: column;
     width: 140px;
     height: 230px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 20px;
+    justify-content: center;
 }
 
 .trener:hover{

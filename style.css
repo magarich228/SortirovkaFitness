@@ -269,11 +269,20 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0 80px;
     overflow: hidden;
 }
 
 .short-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 300;
+    max-height: 400px;
+}
+
+.all-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -315,8 +324,56 @@ header{
 
 .trener button:hover{
     cursor: pointer;
+    background-color: #282828;
 }
 
+#gums{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1600px;
+}
+
+#gums img{
+    flex-grow: 0.5;
+    max-height: 800px;
+}
+
+.gum-wrapper{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.gum-wrapper div{
+    height: 800px;
+}
+
+@media (max-width: 1635px){
+    .map{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1475px){
+    .map{
+        width: 750px;
+    }
+}
+
+footer{
+    font-size: x-large;
+    padding-top: 60px;
+    text-align: center;
+    height: 80px;
+}
+
+#allt{
+    color:aquamarine;
+    text-decoration: underline;
+}
 
 @font-face {
     font-family: "Lato";
